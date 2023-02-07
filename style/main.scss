@@ -1,0 +1,80 @@
+// Primary
+
+$Light-Cyan: hsl(193, 38%, 86%);
+$Neon-Green: hsl(150, 100%, 66%);
+
+$Grayish-Blue: hsl(217, 19%, 38%);
+$Dark-Grayish-Blue: hsl(217, 19%, 24%);
+$Dark-Blue: hsl(218, 23%, 16%);
+
+html {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: $Dark-Blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    width: 40%;
+    max-width: 700px;
+    padding: 2rem;
+    margin: auto;
+    background-color: $Dark-Grayish-Blue;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+
+    h1 { color: $Neon-Green; font-size: 1rem;}
+    
+    p { 
+        font-size: 28px; 
+        color: $Light-Cyan; 
+        text-align: center;
+    }
+
+    .divisor {
+        margin: 0 0 2rem;
+    }
+
+} 
+
+button { 
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: $Neon-Green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img { transition: transform .5s ease-in; }
+
+    img:hover {
+        transform: scale(1.4);
+    }
+}
+// Font size (quote): 28px
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
