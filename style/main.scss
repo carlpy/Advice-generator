@@ -46,10 +46,7 @@ section {
         text-align: center;
     }
 
-    .divisor {
-        margin: 0 0 2rem;
-    }
-
+    .separator { margin: 0 0 2rem; }
 } 
 
 button { 
@@ -65,16 +62,16 @@ button {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: box-shadow .2s ease-in;
 
-    img { transition: transform .5s ease-in; }
-
-    img:hover {
-        transform: scale(1.4);
+    img { 
+        transition: transform .2s ease-in;
+        &:hover { transform: scale(1.23); }
     }
+
+    &:hover { box-shadow: 0 0 40px $Neon-Green; }
 }
 // Font size (quote): 28px
-
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

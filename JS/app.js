@@ -20,5 +20,4 @@ async function getAdvices() {
     }
 }
 
-
-apiBtn.addEventListener('click', getAdvices)
+apiBtn.addEventListener('click', getAdvices);

@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [The solution](https://your-solution-url.com)
+- Solution URL: [The solution](https://www.frontendmentor.io/solutions/responsive-advicegenerator-with-scss-and-api-fetch-SH9c3JI5c7)
 - Live Site URL: [The site](https://chic-bavarois-618671.netlify.app)
 
 ## My process
@@ -56,7 +56,7 @@ try {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+i will be developing more in js using asyncronous functionality in order to make more complex web apps, besides that, i will implement a better mobile first workflow to get more organized
 
 
 ### Useful resources
@@ -65,4 +65,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@carlpy](https://www.frontendmentor.io/profile/carlpy)

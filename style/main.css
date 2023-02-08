@@ -37,7 +37,7 @@ section p {
   color: hsl(193deg, 38%, 86%);
   text-align: center;
 }
-section .divisor {
+section .separator {
   margin: 0 0 2rem;
 }
 
@@ -54,12 +54,16 @@ button {
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: box-shadow 0.2s ease-in;
 }
 button img {
-  transition: transform 0.5s ease-in;
+  transition: transform 0.2s ease-in;
 }
 button img:hover {
-  transform: scale(1.4);
+  transform: scale(1.23);
+}
+button:hover {
+  box-shadow: 0 0 40px hsl(150deg, 100%, 66%);
 }
 
 .attribution {
